@@ -8,7 +8,7 @@
 
 (meditations
   "Destructuring is an arbiter: it breaks up arguments"
-  (= __ ((fn [[a b]] (str b a))
+  (= ":foo:bar" ((fn [[a b]] (str b a))
          [:foo :bar]))
 
   "Whether in function definitions"
